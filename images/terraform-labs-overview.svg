@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600" width="1600" height="600" role="img" aria-labelledby="title desc">
+<title id="title">Five independent AWS infrastructure labs</title>
+<desc id="desc">Five separate Terraform exercises: AWS security group, VPC deployment, EC2 instance with SSH key pair, EBS volume, and variable-based VPC. No connections between resources are asserted.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f4f9ff"/><stop offset="1" stop-color="#eaf3fb"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#4d6c91" flood-opacity="0.14"/></filter>
+</defs>
+<rect width="1600" height="600" fill="url(#bg)"/>
+<g fill="none" stroke="#dbe8f5" stroke-width="3" opacity=".65"><path d="M0 482 Q380 420 770 488 T1600 470"/><path d="M0 520 Q400 470 820 530 T1600 525"/></g>
+<text x="58" y="74" font-size="48" font-weight="800" font-family="Arial,Helvetica,sans-serif" fill="#142f53">Five Independent Terraform Labs</text>
+<text x="60" y="112" font-size="23" font-family="Arial,Helvetica,sans-serif" fill="#4d6783">AWS infrastructure fundamentals · separate configurations, not one connected deployment</text>
+
+<!-- card 1 -->
+<g filter="url(#shadow)"><rect x="50" y="148" width="278" height="330" rx="20" fill="white" stroke="#c9def1" stroke-width="2"/></g>
+<rect x="50" y="148" width="278" height="71" rx="20" fill="#e6f4fe"/><rect x="50" y="193" width="278" height="26" fill="#e6f4fe"/>
+<circle cx="90" cy="185" r="24" fill="#2e78ae"/><text x="90" y="193" text-anchor="middle" font-size="22" font-weight="700" font-family="Arial" fill="white">2</text>
+<text x="127" y="191" font-size="22" font-weight="700" font-family="Arial" fill="#163859">Security Group</text>
+<g stroke="#2576b7" fill="none" stroke-width="7" stroke-linejoin="round"><path d="M180 249 l43 17 v30 q-1 23 -43 44 q-42 -21 -43 -44 v-30z"/><path d="M161 293 l13 13 l27 -30"/></g>
+<text x="76" y="383" font-size="19" font-family="Arial" fill="#183650">devops-sg</text><text x="76" y="414" font-size="19" font-family="Arial" fill="#4d6278">HTTP 80 / SSH 22</text><text x="76" y="445" font-size="18" font-family="Arial" fill="#476c83">AWS CLI verified</text>
+
+<!-- card 2 -->
+<g filter="url(#shadow)"><rect x="355" y="148" width="278" height="330" rx="20" fill="white" stroke="#c9def1" stroke-width="2"/></g>
+<rect x="355" y="148" width="278" height="71" rx="20" fill="#eaf4ed"/><rect x="355" y="193" width="278" height="26" fill="#eaf4ed"/>
+<circle cx="395" cy="185" r="24" fill="#3c8c70"/><text x="395" y="193" text-anchor="middle" font-size="22" font-weight="700" font-family="Arial" fill="white">4</text>
+<text x="431" y="191" font-size="22" font-weight="700" font-family="Arial" fill="#163859">AWS VPC</text>
+<g fill="none" stroke="#32896e" stroke-width="7" stroke-linecap="round"><circle cx="494" cy="266" r="14"/><circle cx="454" cy="320" r="14"/><circle cx="535" cy="320" r="14"/><path d="M488 280 l-27 27 M501 280 l27 27 M469 320 h52"/></g>
+<text x="381" y="383" font-size="19" font-family="Arial" fill="#183650">nautilus-vpc</text><text x="381" y="414" font-size="19" font-family="Arial" fill="#4d6278">192.168.0.0/24</text><text x="381" y="445" font-size="18" font-family="Arial" fill="#476c83">Created with HCL</text>
+
+<!-- card 3 -->
+<g filter="url(#shadow)"><rect x="660" y="148" width="278" height="330" rx="20" fill="white" stroke="#c9def1" stroke-width="2"/></g>
+<rect x="660" y="148" width="278" height="71" rx="20" fill="#fff4df"/><rect x="660" y="193" width="278" height="26" fill="#fff4df"/>
+<circle cx="700" cy="185" r="24" fill="#be8a2c"/><text x="700" y="193" text-anchor="middle" font-size="22" font-weight="700" font-family="Arial" fill="white">7</text>
+<text x="736" y="191" font-size="22" font-weight="700" font-family="Arial" fill="#163859">EC2 + SSH</text>
+<g fill="none" stroke="#bb8b31" stroke-width="7"><rect x="761" y="251" width="78" height="87" rx="8"/><path d="M776 274 h48 M776 299 h48"/><circle cx="782" cy="322" r="2" fill="#bb8b31"/></g>
+<text x="686" y="383" font-size="19" font-family="Arial" fill="#183650">devops-ec2</text><text x="686" y="414" font-size="19" font-family="Arial" fill="#4d6278">t2.micro / RSA 4096</text><text x="686" y="445" font-size="18" font-family="Arial" fill="#476c83">3 resources applied</text>
+
+<!-- card 4 -->
+<g filter="url(#shadow)"><rect x="965" y="148" width="278" height="330" rx="20" fill="white" stroke="#c9def1" stroke-width="2"/></g>
+<rect x="965" y="148" width="278" height="71" rx="20" fill="#fff0ed"/><rect x="965" y="193" width="278" height="26" fill="#fff0ed"/>
+<circle cx="1005" cy="185" r="24" fill="#bb6a53"/><text x="1005" y="193" text-anchor="middle" font-size="22" font-weight="700" font-family="Arial" fill="white">9</text>
+<text x="1041" y="191" font-size="22" font-weight="700" font-family="Arial" fill="#163859">EBS Storage</text>
+<g fill="none" stroke="#b66b52" stroke-width="7"><ellipse cx="1104" cy="258" rx="46" ry="16"/><path d="M1058 258 v63 c0 22 92 22 92 0 v-63"/><path d="M1058 287 c0 22 92 22 92 0"/></g>
+<text x="991" y="383" font-size="19" font-family="Arial" fill="#183650">nautilus-volume</text><text x="991" y="414" font-size="19" font-family="Arial" fill="#4d6278">2 GiB / gp3</text><text x="991" y="445" font-size="18" font-family="Arial" fill="#476c83">Not attached to EC2</text>
+
+<!-- card 5 -->
+<g filter="url(#shadow)"><rect x="1270" y="148" width="278" height="330" rx="20" fill="white" stroke="#c9def1" stroke-width="2"/></g>
+<rect x="1270" y="148" width="278" height="71" rx="20" fill="#f0edff"/><rect x="1270" y="193" width="278" height="26" fill="#f0edff"/>
+<circle cx="1310" cy="185" r="24" fill="#7660b1"/><text x="1310" y="193" text-anchor="middle" font-size="20" font-weight="700" font-family="Arial" fill="white">35</text>
+<text x="1346" y="191" font-size="22" font-weight="700" font-family="Arial" fill="#163859">Variable VPC</text>
+<g stroke="#7760b3" fill="none" stroke-width="6" stroke-linecap="round"><path d="M1400 255 l-20 14 v52 l20 14 M1420 255 l20 14 v52 l-20 14"/><path d="M1406 337 l12 -84"/></g>
+<text x="1296" y="383" font-size="19" font-family="Arial" fill="#183650">devops-vpc</text><text x="1296" y="414" font-size="19" font-family="Arial" fill="#4d6278">10.0.0.0/16</text><text x="1296" y="445" font-size="18" font-family="Arial" fill="#476c83">variables.tf</text>
+
+<rect x="355" y="516" width="890" height="53" rx="18" fill="#dceaf8"/>
+<text x="800" y="550" text-anchor="middle" font-size="22" font-weight="700" font-family="Arial" fill="#234a70">Standalone practice environments — no shared deployed stack implied</text>
+</svg>
